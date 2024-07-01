@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "the_vault:block/dungeon_doors/illagerdungeondoor_bottom",
+		"particle": "the_vault:block/dungeon_doors/illagerdungeondoor_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 13]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"east": {"uv": [4, 0, 4.75, 4], "texture": "#1"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"west": {"uv": [4, 4, 4.75, 8], "texture": "#1"},
+				"up": {"uv": [8.75, 0.75, 4.75, 0], "texture": "#1"},
+				"down": {"uv": [8.75, 0.75, 4.75, 1.5], "texture": "#1"}
+			}
+		}
+	]
+}

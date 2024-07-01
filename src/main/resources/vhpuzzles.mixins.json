@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "implementslegendkt.vhpuzzles.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "vhtweak.refmap.json",
+    "mixins": [
+        "AddTemplates",
+        "PalettePathAccessor",
+        "PuzzleDoorPalette"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}

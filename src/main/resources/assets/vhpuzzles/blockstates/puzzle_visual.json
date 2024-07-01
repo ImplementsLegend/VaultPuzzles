@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "variant=default": {
+            "model":"vhpuzzles:block/puzzle_visual/default"
+        },
+        "variant=mines_0": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_0"
+        },
+        "variant=mines_1": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_1"
+        },
+        "variant=mines_2": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_2"
+        },
+        "variant=mines_3": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_3"
+        },
+        "variant=mines_4": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_4"
+        },
+        "variant=mines_5": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_5"
+        },
+        "variant=mines_6": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_6"
+        },
+        "variant=mines_7": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_7"
+        },
+        "variant=mines_8": {
+            "model":"vhpuzzles:block/puzzle_visual/mines_8"
+        },
+        "variant=simon_1": {
+            "model":"vhpuzzles:block/puzzle_visual/simon_1"
+        },
+        "variant=simon_2": {
+            "model":"vhpuzzles:block/puzzle_visual/simon_2"
+        },
+        "variant=simon_3": {
+            "model":"vhpuzzles:block/puzzle_visual/simon_3"
+        },
+        "variant=simon_4": {
+            "model":"vhpuzzles:block/puzzle_visual/simon_4"
+        },
+        "variant=simon_5": {
+            "model":"vhpuzzles:block/puzzle_visual/simon_5"
+        },
+        "variant=simon_6": {
+            "model":"vhpuzzles:block/puzzle_visual/simon_6"
+        }
+    }
+}

@@ -1,0 +1,525 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "south",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "north",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "west",
+                        "open": false,
+                        "half": "lower"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_bottom",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "north",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "south",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "east",
+                        "open": false,
+                        "half": "lower"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_bottom",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "east",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "west",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "south",
+                        "open": false,
+                        "half": "lower"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_bottom",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "west",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "east",
+                        "open": true,
+                        "half": "lower",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "north",
+                        "open": false,
+                        "half": "lower"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_bottom"
+            }
+        },
+
+
+
+
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "south",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "north",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "west",
+                        "open": false,
+                        "half": "upper"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_top",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "north",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "south",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "east",
+                        "open": false,
+                        "half": "upper"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_top",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "east",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "west",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "south",
+                        "open": false,
+                        "half": "upper"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_top",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "facing": "west",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"left"
+                    },
+                    {
+                        "facing": "east",
+                        "open": true,
+                        "half": "upper",
+                        "hinge":"right"
+                    },
+                    {
+                        "facing": "north",
+                        "open": false,
+                        "half": "upper"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/door_universal_base_top"
+            }
+        },
+
+
+
+        {
+            "when": {
+                "open": false,
+                "facing": "north",
+                "half": "upper",
+                "type": "simon_says"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/simon_says"
+            }
+        },
+        {
+            "when": {
+                "open": false,
+                "facing": "south",
+                "half": "upper",
+                "type": "simon_says"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/simon_says",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "open": false,
+                "facing": "east",
+                "half": "upper",
+                "type": "simon_says"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/simon_says",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "open": false,
+                "facing": "west",
+                "half": "upper",
+                "type": "simon_says"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/simon_says",
+                "y": 270
+            }
+        },
+
+
+
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "east",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "simon_says"
+                    },
+                    {
+                        "open": true,
+                        "facing": "west",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "simon_says"
+                    }
+                ]
+            },
+            "apply": {
+
+                "model": "vhpuzzles:block/puzzle_door/simon_says_outer",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "north",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "simon_says"
+                    },
+                    {
+                        "open": true,
+                        "facing": "south",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "simon_says"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/simon_says_outer",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "east",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "simon_says"
+                    },
+                    {
+                        "open": true,
+                        "facing": "west",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "simon_says"
+                    }
+                ]
+            },
+            "apply": {
+
+                "model": "vhpuzzles:block/puzzle_door/simon_says_outer",
+                "y": 0
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "north",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "simon_says"
+                    },
+                    {
+                        "open": true,
+                        "facing": "south",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "simon_says"
+                    }
+                ]
+            },
+            "apply": {
+
+                "model": "vhpuzzles:block/puzzle_door/simon_says_outer",
+                "y": 270
+            }
+        },
+
+
+
+        {
+            "when": {
+                "open": false,
+                "facing": "north",
+                "half": "upper",
+                "type": "mine_sweeper"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "open": false,
+                "facing": "south",
+                "half": "upper",
+                "type": "mine_sweeper"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "open": false,
+                "facing": "east",
+                "half": "upper",
+                "type": "mine_sweeper"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper"
+            }
+        },
+        {
+            "when": {
+                "open": false,
+                "facing": "west",
+                "half": "upper",
+                "type": "mine_sweeper"
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper",
+                "y": 180
+            }
+        },
+
+
+
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "east",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    },
+                    {
+                        "open": true,
+                        "facing": "west",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    }
+                ]
+            },
+            "apply": {
+
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper_outer",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "north",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    },
+                    {
+                        "open": true,
+                        "facing": "south",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    }
+                ]
+            },
+            "apply": {
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper_outer"
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "east",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    },
+                    {
+                        "open": true,
+                        "facing": "west",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    }
+                ]
+            },
+            "apply": {
+
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper_outer",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "OR": [
+                    {
+                        "open": true,
+                        "facing": "north",
+                        "hinge": "left",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    },
+                    {
+                        "open": true,
+                        "facing": "south",
+                        "hinge": "right",
+                        "half": "upper",
+                        "type": "mine_sweeper"
+                    }
+                ]
+            },
+            "apply": {
+
+                "model": "vhpuzzles:block/puzzle_door/mine_sweeper_outer",
+                "y": 180
+            }
+        }
+    ]
+}
